@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-elements {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.myChat {
+    align-items: flex-end;
+}
+
+.myChat .sender {
+    text-align: right;
+}
+
+.myChat .content {
+    background-color: #00bcd4;
+    color: white;
+}
+
+.yourChat .content {
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    
+}
+
+.content {
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 7px;
+    width: fit-content;
+    max-width: 50%;
+}
+
+.sender{
+    font-size: 10px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 60vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.current-user {
+    width: 100%;
+    max-width: 700px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.current-user p {
+    margin-right: 10px;
+}
+
+.chatBar {
+    text-align: right;
+    padding: 0;
+}
+
+.input {
+    width: 100%;
+    height: 2vw;
+}
+
+.message-bar {
+    background-color: white;
+}
+
+
+.logo {
+    width: 20vw;
+    height: auto;
+    margin-left: 0;
+}
